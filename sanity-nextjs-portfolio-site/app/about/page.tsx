@@ -18,7 +18,7 @@ export default async function About() {
               <div className="order-2 lg:order-none">
                 <h1 className="lg:text-5xl text-4xl lg:leading-tight basis-1/2 font-bold mb-8">
                   I&apos;m {data.fullName}. I live in {data.location}, where I
-                  design the future.
+                  build the future.
                 </h1>
 
                 <div className="flex flex-col gap-y-3 text-zinc-400 leading-relaxed">
@@ -38,7 +38,7 @@ export default async function About() {
                   />
 
                   <a
-                    href={`${data.resumeURL}?dl=${data.fullName}_resume`}
+                    href={`${data.resumeURL}?dl=${data.fullName}_resume.pdf`}
                     className="flex items-center justify-center gap-x-2 bg-[#1d1d20] border border-transparent hover:border-zinc-700 rounded-md duration-200 py-2 text-center cursor-cell font-medium"
                   >
                     <BiFile className="text-base" /> Download Resumé
