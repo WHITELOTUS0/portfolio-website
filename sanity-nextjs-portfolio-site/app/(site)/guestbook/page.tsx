@@ -62,6 +62,7 @@ export default function Guestbook() {
   };
 
   return (
+    <main className="lg:max-w-7xl mx-auto max-w-3xl md:px-16 px-6">
     <div className="container mx-auto max-w-5xl mt-10">
       <h1 className="text-3xl font-bold tracking-tight sm:text-5xl mb-6 lg:leading-[3.7rem] leading-tight">
             Guestbook
@@ -128,6 +129,7 @@ export default function Guestbook() {
         </div>
       </div>
     </div>
+    </main>
   );
 }
 
