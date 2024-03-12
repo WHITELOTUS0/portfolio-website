@@ -27,6 +27,14 @@ export default function Navbar() {
                 Projects
               </Link>
             </li>
+            <li>
+              <Link
+                href="/guestbook"
+                className="hover:text-purple-400 duration-300"
+              >
+                guestbook
+              </Link>
+            </li>
           </ul>
         </nav>
       </div>
