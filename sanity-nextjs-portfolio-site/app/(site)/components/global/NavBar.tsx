@@ -32,7 +32,7 @@ export default function Navbar() {
                 href="/guestbook"
                 className="hover:text-purple-400 duration-300"
               >
-                guestbook
+                Guestbook
               </Link>
             </li>
           </ul>
